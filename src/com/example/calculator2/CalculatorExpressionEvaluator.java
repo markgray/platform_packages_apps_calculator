@@ -16,10 +16,6 @@
 
 package com.example.calculator2;
 
-import org.javia.arity.Symbols;
-import org.javia.arity.SyntaxException;
-import org.javia.arity.Util;
-
 public class CalculatorExpressionEvaluator {
 
     /**
