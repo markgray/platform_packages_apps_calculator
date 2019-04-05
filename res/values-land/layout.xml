@@ -15,6 +15,7 @@
   limitations under the License.
   -->
 
-<resources>
-    <item name="activity_calculator" type="layout">@layout/activity_calculator_land</item>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item
+        name="activity_calculator" type="layout" tools:ignore="MissingDefaultResource">@layout/activity_calculator_land</item>
 </resources>
