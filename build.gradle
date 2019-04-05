@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.apps.calculator"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 28
     }
 
@@ -53,5 +53,5 @@ repositories {
 }
 
 dependencies {
-    implementation "com.android.support:support-v4:28.0.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
